@@ -8,8 +8,8 @@ description: |
 owner: A Chafetz # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
 #email: your-email@domain.com
-baseurl: "https://achafetz.github.io/jac_wed/" # the subpath of your site, e.g. /blog
-url: "https://achafetz.github.io/jac_wed/" # the base hostname & protocol for your site
+baseurl: "/jac_wed" # the subpath of your site, e.g. /blog
+url: "https://achafetz.github.io/" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/achafetz
   github: https://github.com/achafetz
