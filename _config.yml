@@ -5,7 +5,7 @@
 title: J&A
 description: |
   September 22, 2018
-owner: A.Chafetz # or company name
+owner: Chafetz # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
 #email: your-email@domain.com
 baseurl: "/jac_wed" # the subpath of your site, e.g. /blog
@@ -50,6 +50,9 @@ social:
   #forumbee:
   #tripadvisor:
   #amazon:
+
+# Google Analytics
+google_analytics: UA-108130386-1
 
 # Build settings
 markdown: kramdown
