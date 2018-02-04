@@ -1,0 +1,14 @@
+- open GitHub repo, cmd + T (to open terminal) —> jekyll serve --watch --baseurl ""
+- leave terminal open while working
+- to check updates, go to Chrome and 1ocal:4000
+- when finished close out terminal (or ctrl-c)
+- _site folder convert markdown and is what you actaually see (ignore in GitHub)
+
+- _layout > default.html —> what’s the same on every page
+- index —> what’s unique
+
+https://www.youtube.com/watch?v=RA9N9EywXa0
+
+-clear terminal ctrl + L
+
+- https://formspree.io/
