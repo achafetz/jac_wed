@@ -1,6 +1,29 @@
-- open GitHub repo, cmd + T (to open terminal) —> jekyll serve --watch --baseurl ""
+https://learn-the-web.algonquindesign.ca/topics/jekyll/
+setup
+- open terminal, install apple's developer tools -> xcode-select --install
+- setup homebrew,go to https://brew.sh/ and paste in the installation code -> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+- install ruby -> new install ruby
+- check that gem was installed/updated and you should see "/usr/local/bin/gem'--> which gem
+- install jekyll -> gem install jekyll
+- if that doesn't work, use -> sudo gem install jekyll
+
+GitHub
+- host the site on GitHub, setup a repo
+- create a new branch -> gh-pages
+- can delete master if just using as a site
+
+setup
+- start by creating an index.html page
+- create a _config.yml and in there
+    - set markdown type -> markdown: redcarpet
+    - set the baseurl, whatever comes after github.io -> base-url: /test_site
+    - can ignore files, eg READ_ME -> exclude: ['README.md', 'other-folder']
+- don't save anything in the site folder, dynamic; also want to ignore it on GitHub , so in the .gitignore file, add --> _site
+
+working session
+- open GitHub repo, cmd + T (to open terminal, same folder as _config.yml) —> jekyll serve --watch --baseurl ""
 - leave terminal open while working
-- to check updates, go to Chrome and 1ocal:4000
+- to check updates, go to Chrome and 1ocalhost:4000
 - when finished close out terminal (or ctrl-c)
 - _site folder convert markdown and is what you actaually see (ignore in GitHub)
 
